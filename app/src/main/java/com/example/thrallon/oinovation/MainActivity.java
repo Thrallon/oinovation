@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
             boolean f=false;
+            boolean t=true;
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
