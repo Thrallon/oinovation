@@ -3,21 +3,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/EShop"
+            android:icon="@drawable/eshop"
+            android:title="E-Shop" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/Wines"
+            android:icon="@drawable/wine_icon"
+            android:title="Wines of Greece" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/GreekMap"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Interactive Greek Map" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/Grapes"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Grape Variety" />
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About OINOVATION" />
+        <item
+            android:id="@+id/Other"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="OTHER" />
     </group>
 
     <item android:title="Communicate">
