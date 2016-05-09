@@ -3,33 +3,31 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_e_shop"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="E-shop"
+            />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_wog"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Wines of Greece" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_map"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Interactive Greek Map" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_poikilies"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Ποικιλίες Σταφυλιών" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="About">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_oinovation"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Oinovation" />
+
         </menu>
     </item>
 
