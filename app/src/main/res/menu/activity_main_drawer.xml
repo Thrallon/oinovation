@@ -19,6 +19,14 @@
             android:id="@+id/nav_poikilies"
             android:icon="@drawable/ic_menu_manage"
             android:title="Ποικιλίες Σταφυλιών" />
+        <item
+            android:id="@+id/quiz"
+            android:icon="@drawable/quiz"
+            android:title="Quiz" />
+        <item
+            android:id="@+id/winemakers"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Winemakers" />
     </group>
 
     <item android:title="About">

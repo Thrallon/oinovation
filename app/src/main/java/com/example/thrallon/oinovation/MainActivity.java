@@ -98,9 +98,16 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_map) {
 
         } else if (id == R.id.nav_poikilies) {
-
+            Intent winevariety = new Intent(this,WineVariety.class);
+            startActivity(winevariety);
         } else if (id == R.id.nav_oinovation) {
 
+        } else if (id == R.id.quiz){
+            Intent quiz = new Intent(this,QuizActivity.class);
+            startActivity(quiz);
+        } else if(id == R.id.winemakers){
+            Intent winemakers = new Intent(this,WineMakers.class);
+            startActivity(winemakers);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
